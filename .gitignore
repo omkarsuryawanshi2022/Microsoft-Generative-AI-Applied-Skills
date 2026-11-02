@@ -1,0 +1,47 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.bak
+
+# Build and Distribution
+build/
+dist/
+*.egg-info/
+
+# Credentials and Sensitive Files
+credentials.json
+service-account.json
